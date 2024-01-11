@@ -1,5 +1,5 @@
 
-FROM golang:bookworm
+FROM golang:1.22rc1-bookworm
 
 COPY . /usr/src/client/
 WORKDIR /usr/src/client/
