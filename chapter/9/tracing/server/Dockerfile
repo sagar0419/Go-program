@@ -1,5 +1,5 @@
 
-FROM golang:1.21rc2
+FROM golang:latest
 
 COPY . /usr/src/server/
 WORKDIR /usr/src/server/
