@@ -1,4 +1,4 @@
-FROM golang:bookworm
+FROM golang:1.22.5-bookworm
 COPY . /usr/src/server/
 WORKDIR /usr/src/server/
 RUN go env -w GOPROXY=direct
