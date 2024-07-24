@@ -1,4 +1,4 @@
-FROM golang:bookworm
+FROM golang:1.23rc2-bookworm
 COPY . /usr/src/demo/
 WORKDIR /usr/src/demo/
 RUN go env -w GOPROXY=direct GO111MODULE=on
